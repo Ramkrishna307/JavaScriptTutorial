@@ -15,3 +15,14 @@ a=50
 //this is possible for let
 console.log(a);
 
+
+let z=10
+{
+     z=90;
+}
+
+console.log(z);
+
+
+
+
