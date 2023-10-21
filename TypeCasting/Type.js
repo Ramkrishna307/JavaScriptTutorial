@@ -49,3 +49,5 @@ console.log(typeof name);
 
 name=Boolean(name);
 console.log(name);
+
+
