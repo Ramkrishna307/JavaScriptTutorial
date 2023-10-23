@@ -50,4 +50,47 @@ console.log(content);
 
 //Reading HTML content
 
-let 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//changing attribute and style of webpage element
+
+
+//How to chnage the attribute value of a webapge element
+
+document.querySelector('#img1').src='pic2.jpg';
+
+document.querySelector('#img1').height='500';
+document.querySelector('#img1').width='400';
+
+//add style dynamically to webpage element
+document.querySelector('#page2').style.color='red';
+
+document.querySelector('#page2').style.backgroundColor='yellow';
+
+//Adding and removing the class from the webpage element
+
+//Remove the class from element
+
+document.querySelector('.header').classList.remove('header')
+
+//adding the class to element 
+document.querySelector('.header1').classList.add('header2');
