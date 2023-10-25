@@ -68,7 +68,7 @@ console.log(content);
 
 
 
-
+//      ************************ 2nd Video *****************************
 
 
 //changing attribute and style of webpage element
@@ -94,3 +94,6 @@ document.querySelector('.header').classList.remove('header')
 
 //adding the class to element 
 document.querySelector('.header1').classList.add('header2');
+
+
+//            ******************** 3rd video ***********************

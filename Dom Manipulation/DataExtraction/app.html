@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="fname" placeholder="Enter your name" value="Ramkrishna">
+    </div>
+
+    <div>
+        <label for="Address">Adress</label>
+        <input type="text" id="adress" placeholder="Enter your name" value="Bhului">
+    </div>
+
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" id="email" placeholder="Enter your name" value="ramkrishnaroy624@gmail.com">
+    </div>
+
+    <div>
+        <label for="cars" id="dropdown">Choose a car:</label>
+        <select name="cars" id="cars">
+          <option value="volvo" >Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi" selected>Audi</option>
+        </select>
+    </div>
+    <div>
+        <label for="java"><input type="radio" name="subject" value="Java" id="java">Java</label>
+        <label for="cpp"><input type="radio" name="subject" value="C++" id="cpp" checked="checked">C++</label>
+        <label for="python"><input type="radio" name="subject" value="Python" id="python">Python</label>
+    </div>
+    
+    <div>
+        <label for="##">Options</label><br>
+
+        <label><input type="checkbox" name="skill" checked >React</label>
+        <label><input type="checkbox" name="skill" checked >Angular</label>
+        <label><input type="checkbox" name="skill">Node JS</label>
+        <label><input type="checkbox" name="skill">Spring</label>
+    </div>
+           <br>
+     <button>Submit</button>
+
+          <script src="app.js"></script>      
+</body>
+</html>
