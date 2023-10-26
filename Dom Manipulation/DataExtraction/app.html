@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h2 id="heading">The Heading using h2</h2>
     <div>
         <label for="name">Name</label>
         <input type="text" id="fname" placeholder="Enter your name" value="Ramkrishna">
@@ -13,7 +14,8 @@
 
     <div>
         <label for="Address">Adress</label>
-        <input type="text" id="adress" placeholder="Enter your name" value="Bhului">
+        <input type="text" id="adress" placeholder="Enter your name" value="Bhului" onfocus="this.style.backgroundColor='yellow'"
+        onblur="this.style.backgroundColor='white'">
     </div>
 
     <div>
@@ -45,8 +47,11 @@
         <label><input type="checkbox" name="skill">Spring</label>
     </div>
            <br>
-     <button>Submit</button>
+ 
+           <label for="##"><input type="text" id="color">Color</label>
+     <button id="button">Submit</button>
 
-          <script src="app.js"></script>      
+          <script src="app.js"></script>    
+          <script src="script.js"></script>  
 </body>
 </html>
